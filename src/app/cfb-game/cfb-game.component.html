@@ -6,7 +6,12 @@
         {{game.homeTeam.name}} {{game.homeTeam.score}}
     </div>
     <div class="row">
-        {{game.time.quarter}} Quarter - {{game.time.remainingTime}}
+        <ng-container *ngIf="game.time.remainingTime === '0:00'; else gameActive">
+            Half Time
+        </ng-container>
+        <ng-template #gameActive>
+            {{game.time.quarter}} Quarter - {{game.time.remainingTime}}
+        </ng-template>
     </div>
 </div>
 
