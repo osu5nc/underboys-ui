@@ -1,8 +1,13 @@
-<div>
-    {{game.awayTeam.name}} {{game.awayTeam.score}}
-</div>
-<div>
-    {{game.homeTeam.name}} {{game.homeTeam.score}}
+<div class="container">
+    <div class="row">
+        {{game.awayTeam.name}} {{game.awayTeam.score}}
+    </div>
+    <div class="row">
+        {{game.homeTeam.name}} {{game.homeTeam.score}}
+    </div>
+    <div class="row">
+        {{game.time.quarter}} Quarter - {{game.time.remainingTime}}
+    </div>
 </div>
 
 
