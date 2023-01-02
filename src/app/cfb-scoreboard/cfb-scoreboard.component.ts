@@ -12,12 +12,12 @@ export class CfbScoreboardComponent implements OnInit {
 
   constructor(private cfbService: CfbService) { }
 
-  game: any;
+  gameList: any;
  
   ngOnInit() {
     this.cfbService.retrieveCFBData().subscribe((response) => {
       console.log(response);
-      this.game = response[0];
+      this.gameList = response;
     });
   }
 }

@@ -1,1 +1,5 @@
-<app-cfb-game [game]="game"></app-cfb-game>
+<div *ngFor="let game of gameList">
+    <app-cfb-game [game]="game"></app-cfb-game>
+    <br /><br />
+</div>
+
