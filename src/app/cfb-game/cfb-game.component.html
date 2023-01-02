@@ -5,14 +5,14 @@
     <div class="row">
         {{game.home_team.name}} {{game.box_score.score.home.score}}
     </div>
-    <!-- <div class="row">
-        <ng-container *ngIf="game.time.remainingTime === '0:00'; else gameActive">
+    <div class="row">
+        <ng-container *ngIf="game.box_score.progress.string === '0:00'; else gameActive">
             Half Time
         </ng-container>
         <ng-template #gameActive>
-            {{game.time.quarter}} Quarter - {{game.time.remainingTime}}
+            {{game.box_score.progress.segment_description}} - {{game.box_score.progress.string}}
         </ng-template>
-    </div> -->
+    </div>
 </div>
 
 
