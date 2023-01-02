@@ -13,7 +13,11 @@ export class CfbGameComponent {
     },
     awayTeam: {
       name: 'Mississippi State',
-      score: 0
+      score: 3
+    },
+    time: {
+      quarter: '2nd',
+      remainingTime: '0:00'
     }
   }
 }
