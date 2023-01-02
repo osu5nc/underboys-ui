@@ -1,18 +1,18 @@
 <div class="container">
     <div class="row">
-        {{game.awayTeam.name}} {{game.awayTeam.score}}
+        {{game.away_team.name}} {{game.box_score.score.away.score}}
     </div>
     <div class="row">
-        {{game.homeTeam.name}} {{game.homeTeam.score}}
+        {{game.home_team.name}} {{game.box_score.score.home.score}}
     </div>
-    <div class="row">
+    <!-- <div class="row">
         <ng-container *ngIf="game.time.remainingTime === '0:00'; else gameActive">
             Half Time
         </ng-container>
         <ng-template #gameActive>
             {{game.time.quarter}} Quarter - {{game.time.remainingTime}}
         </ng-template>
-    </div>
+    </div> -->
 </div>
 
 

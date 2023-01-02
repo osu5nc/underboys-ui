@@ -1,0 +1,1324 @@
+[
+    {
+      "bowl": null,
+      "important": true,
+      "location": "Tampa, FL",
+      "season_week": "2022-18",
+      "stadium": "Raymond James Stadium",
+      "total_quarters": null,
+      "colours": {
+        "away": "762123",
+        "home": "F5873C"
+      },
+      "conference_names": [
+        "All FBS",
+        "Big Ten",
+        "SEC",
+        "Top 25"
+      ],
+      "has_play_by_play_records": true,
+      "stubhub_url": null,
+      "week": 18,
+      "home_ranking": null,
+      "away_ranking": 22,
+      "id": 130989,
+      "event_status": "in_progress",
+      "game_date": "Mon, 02 Jan 2023 17:00:00 -0000",
+      "game_type": "Bowl Game",
+      "game_description": "ReliaQuest Bowl",
+      "tba": false,
+      "updated_at": "Mon, 02 Jan 2023 18:32:11 -0000",
+      "bet_works_id": null,
+      "betradar_id": "37866109",
+      "top_match": null,
+      "status": "half_over",
+      "api_uri": "/ncaaf/events/130989",
+      "resource_uri": "/football/events/130989",
+      "away_team": {
+        "medium_name": "Mississippi State",
+        "short_name": "Mississippi State",
+        "colour_1": "762123",
+        "colour_2": "FFFFFF",
+        "division": "Bowl Subdivision",
+        "full_name": "Mississippi State Bulldogs",
+        "name": "Mississippi State",
+        "search_name": "Mississippi State Bulldogs",
+        "location": "Starkville, Mississippi",
+        "conference": "Southeastern",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:05:00 -0000",
+        "subscription_count": 176686,
+        "id": 427,
+        "abbreviation": "MSST",
+        "api_uri": "/ncaaf/teams/427",
+        "resource_uri": "/football/teams/427",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/427/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/427/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/427/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/427/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "home_team": {
+        "medium_name": "Illinois",
+        "short_name": "Illinois",
+        "colour_1": "F5873C",
+        "colour_2": "FFFFFF",
+        "division": "Bowl Subdivision",
+        "full_name": "Illinois Fighting Illini",
+        "name": "Illinois",
+        "search_name": "Illinois Fighting Illini",
+        "location": "Champaign, Illinois",
+        "conference": "Big Ten",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:04:59 -0000",
+        "subscription_count": 105507,
+        "id": 298,
+        "abbreviation": "ILL",
+        "api_uri": "/ncaaf/teams/298",
+        "resource_uri": "/football/teams/298",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/298/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/298/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/298/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/298/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "red_zone": false,
+      "top_25_rankings": {
+        "home": null,
+        "away": 22
+      },
+      "display_fpi": true,
+      "league": {
+        "id": 3,
+        "daily_rollover_offset": 28800.0,
+        "daily_rollover_time": "13:00:00 +0000",
+        "default_section": "events",
+        "full_name": "NCAA Football",
+        "medium_name": "NCAA Football",
+        "season_type": "regular",
+        "short_name": "NCAAF",
+        "slug": "ncaaf",
+        "sport_name": "football",
+        "updated_at": "Mon, 02 Jan 2023 08:25:32 -0000",
+        "subscription_count": 7451271,
+        "sex": "M",
+        "localizations": {
+          
+        },
+        "api_uri": "/ncaaf",
+        "resource_uri": "/football/leagues/3"
+      },
+      "event_details": [
+        {
+          "label": "Tampa, FL",
+          "content": "Raymond James Stadium",
+          "identifier": "stadium_location"
+        },
+        {
+          "label": "Wind mph",
+          "content": "4 - 4 S",
+          "identifier": "weather_forecast/wind/mph"
+        },
+        {
+          "label": "Wind km/h",
+          "content": "6 - 6 S",
+          "identifier": "weather_forecast/wind/kph"
+        },
+        {
+          "label": "Haze",
+          "content": "69°F",
+          "identifier": "weather_forecast/temperature/fahrenheit"
+        },
+        {
+          "label": "Haze",
+          "content": "21°C",
+          "identifier": "weather_forecast/temperature/celsius"
+        },
+        {
+          "label": "Precipitation",
+          "content": "0%",
+          "identifier": "weather_forecast/precipitation"
+        },
+        {
+          "label": "Watch on",
+          "content": "TSN.ca",
+          "identifier": "broadcast/ca"
+        },
+        {
+          "label": "Watch on",
+          "content": "ESPN2",
+          "identifier": "broadcast/us"
+        },
+        {
+          "label": "Closing odds",
+          "content": "MSST -3.5, o/u 46.5",
+          "identifier": "closing_odds"
+        }
+      ],
+      "tv_listings_by_country_code": {
+        "us": [
+          {
+            "short_name": "ESPN2",
+            "long_name": "ESPN2"
+          }
+        ],
+        "ca": [
+          {
+            "short_name": "TSN.ca",
+            "long_name": "TSN.ca"
+          }
+        ]
+      },
+      "has_team_twitter_handles": true,
+      "standings": {
+        "away": {
+          "last_five_games_record": null,
+          "short_record": "8-4-0",
+          "streak": "W2",
+          "short_ats_record": null,
+          "short_away_record": "2-3-0",
+          "short_conference_record": "4-4-0",
+          "short_division_record": "7-4-0",
+          "short_home_record": "6-1-0",
+          "conference_rank": 10,
+          "conference_seed": 10,
+          "division_rank": 4,
+          "division_seed": null,
+          "formatted_rank": "4th West",
+          "conference": "Southeastern",
+          "conference_abbreviation": "SEC",
+          "division": "West",
+          "place": 10,
+          "api_uri": "/ncaaf/standings/4413",
+          "division_ranking": 10
+        },
+        "home": {
+          "last_five_games_record": null,
+          "short_record": "8-4-0",
+          "streak": "W1",
+          "short_ats_record": null,
+          "short_away_record": "3-2-0",
+          "short_conference_record": "5-4-0",
+          "short_division_record": "7-4-0",
+          "short_home_record": "5-2-0",
+          "conference_rank": 9,
+          "conference_seed": 9,
+          "division_rank": 3,
+          "division_seed": null,
+          "formatted_rank": "3rd West",
+          "conference": "Big Ten",
+          "conference_abbreviation": "Big Ten",
+          "division": "West",
+          "place": 9,
+          "api_uri": "/ncaaf/standings/4395",
+          "division_ranking": 9
+        }
+      },
+      "box_score": {
+        "minutes": 0,
+        "segment_number": 2,
+        "down": null,
+        "formatted_distance": null,
+        "yards_from_goal": null,
+        "home_timeouts_left": null,
+        "away_timeouts_left": null,
+        "under_review": false,
+        "field_position": null,
+        "id": 27758,
+        "has_statistics": true,
+        "progress": {
+          "clock_label": "Halftime",
+          "string": "Halftime",
+          "status": "half_over",
+          "event_status": "in_progress",
+          "segment": 2,
+          "segment_string": "2nd",
+          "segment_description": "2nd Quarter",
+          "clock": "0:00",
+          "overtime": false
+        },
+        "updated_at": "Mon, 02 Jan 2023 18:39:33 -0000",
+        "api_uri": "/ncaaf/box_scores/27758",
+        "score": {
+          "home": {
+            "score": 7
+          },
+          "away": {
+            "score": 3
+          },
+          "winning_team": "/ncaaf/teams/298",
+          "losing_team": "/ncaaf/teams/427",
+          "tie_game": false
+        },
+        "team_in_possession": null
+      },
+      "odd": {
+        "away_odd": "-3.5",
+        "home_odd": "T:46.5",
+        "id": 2060588,
+        "line": "MSST -3.5",
+        "over_under": "46.5",
+        "api_uri": "/ncaaf/odds/2060588",
+        "closing": "MSST -3.5, o/u 46.5"
+      },
+      "subscribable_alerts": [
+        {
+          "key": "game_start",
+          "display": "Game Start",
+          "default": true
+        },
+        {
+          "key": "game_end",
+          "display": "Game End",
+          "default": true
+        },
+        {
+          "key": "score_change",
+          "display": "Every Scoring Play",
+          "default": true
+        },
+        {
+          "key": "red_zone",
+          "display": "Red Zone",
+          "default": false
+        },
+        {
+          "key": "segment_end",
+          "display": "Score - Each Quarter",
+          "default": true
+        },
+        {
+          "key": "tight_game",
+          "display": "Close Game",
+          "default": false
+        },
+        {
+          "key": "turnovers",
+          "display": "Turnovers",
+          "default": false
+        },
+        {
+          "key": "line_movement",
+          "display": "Line Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_movement",
+          "display": "Over/Under Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_watch",
+          "display": "Over/Under Watch (In-Game)",
+          "default": false
+        },
+        {
+          "key": "close_bet",
+          "display": "Close Bet (In-Game)",
+          "default": false
+        }
+      ]
+    },
+    {
+      "bowl": null,
+      "important": true,
+      "location": "Arlington, TX",
+      "season_week": "2022-18",
+      "stadium": "AT&T Stadium",
+      "total_quarters": null,
+      "colours": {
+        "away": "6EA396",
+        "home": "990000"
+      },
+      "conference_names": [
+        "AAC",
+        "All FBS",
+        "Pac-12",
+        "Top 25"
+      ],
+      "has_play_by_play_records": true,
+      "stubhub_url": null,
+      "week": 18,
+      "home_ranking": 10,
+      "away_ranking": 16,
+      "id": 130966,
+      "event_status": "in_progress",
+      "game_date": "Mon, 02 Jan 2023 18:00:00 -0000",
+      "game_type": "Bowl Game",
+      "game_description": "Cotton Bowl Classic",
+      "tba": false,
+      "updated_at": "Mon, 02 Jan 2023 18:37:52 -0000",
+      "bet_works_id": null,
+      "betradar_id": "37863277",
+      "top_match": null,
+      "status": "in_progress",
+      "api_uri": "/ncaaf/events/130966",
+      "resource_uri": "/football/events/130966",
+      "away_team": {
+        "medium_name": "Tulane",
+        "short_name": "Tulane",
+        "colour_1": "6EA396",
+        "colour_2": "FFFFFF",
+        "division": "Bowl Subdivision",
+        "full_name": "Tulane Green Wave",
+        "name": "Tulane",
+        "search_name": "Tulane Green Wave",
+        "location": "New Orleans, Louisiana",
+        "conference": "American Athletic",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:05:00 -0000",
+        "subscription_count": 20574,
+        "id": 657,
+        "abbreviation": "TULN",
+        "api_uri": "/ncaaf/teams/657",
+        "resource_uri": "/football/teams/657",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/657/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/657/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/657/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/657/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "home_team": {
+        "medium_name": "USC",
+        "short_name": "USC",
+        "colour_1": "990000",
+        "colour_2": "FFCC00",
+        "division": "Bowl Subdivision",
+        "full_name": "USC Trojans",
+        "name": "USC",
+        "search_name": "USC Trojans",
+        "location": "Los Angeles, California",
+        "conference": "Pacific-12",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:04:59 -0000",
+        "subscription_count": 281537,
+        "id": 676,
+        "abbreviation": "USC",
+        "api_uri": "/ncaaf/teams/676",
+        "resource_uri": "/football/teams/676",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/676/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/676/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/676/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/676/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "red_zone": false,
+      "top_25_rankings": {
+        "home": 10,
+        "away": 16
+      },
+      "display_fpi": true,
+      "league": {
+        "id": 3,
+        "daily_rollover_offset": 28800.0,
+        "daily_rollover_time": "13:00:00 +0000",
+        "default_section": "events",
+        "full_name": "NCAA Football",
+        "medium_name": "NCAA Football",
+        "season_type": "regular",
+        "short_name": "NCAAF",
+        "slug": "ncaaf",
+        "sport_name": "football",
+        "updated_at": "Mon, 02 Jan 2023 08:25:32 -0000",
+        "subscription_count": 7451271,
+        "sex": "M",
+        "localizations": {
+          
+        },
+        "api_uri": "/ncaaf",
+        "resource_uri": "/football/leagues/3"
+      },
+      "event_details": [
+        {
+          "label": "Arlington, TX",
+          "content": "AT&T Stadium",
+          "identifier": "stadium_location"
+        },
+        {
+          "label": "Wind mph",
+          "content": "9 - 9 SSE",
+          "identifier": "weather_forecast/wind/mph"
+        },
+        {
+          "label": "Wind km/h",
+          "content": "14 - 14 SSE",
+          "identifier": "weather_forecast/wind/kph"
+        },
+        {
+          "label": "Light Rain",
+          "content": "71°F",
+          "identifier": "weather_forecast/temperature/fahrenheit"
+        },
+        {
+          "label": "Light Rain",
+          "content": "22°C",
+          "identifier": "weather_forecast/temperature/celsius"
+        },
+        {
+          "label": "Precipitation",
+          "content": "0%",
+          "identifier": "weather_forecast/precipitation"
+        },
+        {
+          "label": "Watch on",
+          "content": "TSN2",
+          "identifier": "broadcast/ca"
+        },
+        {
+          "label": "Watch on",
+          "content": "ESPN",
+          "identifier": "broadcast/us"
+        },
+        {
+          "label": "Closing odds",
+          "content": "USC -2.5, o/u 66.5",
+          "identifier": "closing_odds"
+        }
+      ],
+      "tv_listings_by_country_code": {
+        "us": [
+          {
+            "short_name": "ESPN",
+            "long_name": "ESPN"
+          }
+        ],
+        "ca": [
+          {
+            "short_name": "TSN2",
+            "long_name": "TSN2"
+          }
+        ]
+      },
+      "has_team_twitter_handles": true,
+      "standings": {
+        "away": {
+          "last_five_games_record": null,
+          "short_record": "11-2-0",
+          "streak": "W3",
+          "short_ats_record": null,
+          "short_away_record": "5-0-0",
+          "short_conference_record": "7-1-0",
+          "short_division_record": "10-2-0",
+          "short_home_record": "6-2-0",
+          "conference_rank": 1,
+          "conference_seed": 1,
+          "division_rank": null,
+          "division_seed": null,
+          "formatted_rank": "1st AAC",
+          "conference": "American Athletic",
+          "conference_abbreviation": "AAC",
+          "division": null,
+          "place": 1,
+          "api_uri": "/ncaaf/standings/4353",
+          "division_ranking": 1
+        },
+        "home": {
+          "last_five_games_record": null,
+          "short_record": "11-2-0",
+          "streak": "L1",
+          "short_ats_record": null,
+          "short_away_record": "4-1-0",
+          "short_conference_record": "8-1-0",
+          "short_division_record": "11-2-0",
+          "short_home_record": "7-1-0",
+          "conference_rank": 1,
+          "conference_seed": 1,
+          "division_rank": null,
+          "division_seed": null,
+          "formatted_rank": "1st Pac-12",
+          "conference": "Pacific-12",
+          "conference_abbreviation": "Pac-12",
+          "division": null,
+          "place": 1,
+          "api_uri": "/ncaaf/standings/4469",
+          "division_ranking": 1
+        }
+      },
+      "box_score": {
+        "minutes": 2,
+        "segment_number": 1,
+        "down": 1,
+        "formatted_distance": "10",
+        "yards_from_goal": 95,
+        "home_timeouts_left": 2,
+        "away_timeouts_left": 3,
+        "under_review": false,
+        "field_position": "USC 5",
+        "id": 27760,
+        "has_statistics": true,
+        "progress": {
+          "clock_label": "2:46 1st",
+          "string": "2:46 1st",
+          "status": "in_progress",
+          "event_status": "in_progress",
+          "segment": 1,
+          "segment_string": "1st",
+          "segment_description": "1st Quarter",
+          "clock": "2:46",
+          "overtime": false
+        },
+        "updated_at": "Mon, 02 Jan 2023 18:39:33 -0000",
+        "api_uri": "/ncaaf/box_scores/27760",
+        "score": {
+          "home": {
+            "score": 7
+          },
+          "away": {
+            "score": 0
+          },
+          "winning_team": "/ncaaf/teams/676",
+          "losing_team": "/ncaaf/teams/657",
+          "tie_game": false
+        },
+        "team_in_possession": {
+          "medium_name": "USC",
+          "short_name": "USC",
+          "colour_1": "990000",
+          "colour_2": "FFCC00",
+          "division": "Bowl Subdivision",
+          "full_name": "USC Trojans",
+          "name": "USC",
+          "search_name": "USC Trojans",
+          "location": "Los Angeles, California",
+          "conference": "Pacific-12",
+          "has_injuries": true,
+          "has_rosters": true,
+          "has_extra_info": true,
+          "updated_at": "Mon, 02 Jan 2023 18:04:59 -0000",
+          "subscription_count": 281537,
+          "id": 676,
+          "abbreviation": "USC",
+          "api_uri": "/ncaaf/teams/676",
+          "resource_uri": "/football/teams/676",
+          "logos": {
+            "large": "https://assets-sports.thescore.com/football/team/676/logo.png",
+            "small": "https://assets-sports.thescore.com/football/team/676/small_logo.png",
+            "w72xh72": "https://assets-sports.thescore.com/football/team/676/w72xh72_logo.png",
+            "tiny": "https://assets-sports.thescore.com/football/team/676/tiny_logo.png",
+            "facing": null
+          }
+        }
+      },
+      "odd": {
+        "away_odd": "T:66.5",
+        "home_odd": "-2.5",
+        "id": 2060741,
+        "line": "USC -2.5",
+        "over_under": "66.5",
+        "api_uri": "/ncaaf/odds/2060741",
+        "closing": "USC -2.5, o/u 66.5"
+      },
+      "subscribable_alerts": [
+        {
+          "key": "game_start",
+          "display": "Game Start",
+          "default": true
+        },
+        {
+          "key": "game_end",
+          "display": "Game End",
+          "default": true
+        },
+        {
+          "key": "score_change",
+          "display": "Every Scoring Play",
+          "default": true
+        },
+        {
+          "key": "red_zone",
+          "display": "Red Zone",
+          "default": false
+        },
+        {
+          "key": "segment_end",
+          "display": "Score - Each Quarter",
+          "default": true
+        },
+        {
+          "key": "tight_game",
+          "display": "Close Game",
+          "default": false
+        },
+        {
+          "key": "turnovers",
+          "display": "Turnovers",
+          "default": false
+        },
+        {
+          "key": "line_movement",
+          "display": "Line Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_movement",
+          "display": "Over/Under Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_watch",
+          "display": "Over/Under Watch (In-Game)",
+          "default": false
+        },
+        {
+          "key": "close_bet",
+          "display": "Close Bet (In-Game)",
+          "default": false
+        }
+      ]
+    },
+    {
+      "bowl": null,
+      "important": true,
+      "location": "Orlando, FL",
+      "season_week": "2022-18",
+      "stadium": "Camping World Stadium",
+      "total_quarters": null,
+      "colours": {
+        "away": "FFD700",
+        "home": "B89D29"
+      },
+      "conference_names": [
+        "All FBS",
+        "Big Ten",
+        "SEC",
+        "Top 25"
+      ],
+      "has_play_by_play_records": true,
+      "stubhub_url": null,
+      "week": 18,
+      "home_ranking": null,
+      "away_ranking": 17,
+      "id": 130982,
+      "event_status": "in_progress",
+      "game_date": "Mon, 02 Jan 2023 18:00:00 -0000",
+      "game_type": "Bowl Game",
+      "game_description": "Citrus Bowl",
+      "tba": false,
+      "updated_at": "Mon, 02 Jan 2023 18:39:30 -0000",
+      "bet_works_id": null,
+      "betradar_id": "37863483",
+      "top_match": null,
+      "status": "in_progress",
+      "api_uri": "/ncaaf/events/130982",
+      "resource_uri": "/football/events/130982",
+      "away_team": {
+        "medium_name": "LSU",
+        "short_name": "LSU",
+        "colour_1": "FFD700",
+        "colour_2": "461D7C",
+        "division": "Bowl Subdivision",
+        "full_name": "LSU Tigers",
+        "name": "LSU",
+        "search_name": "LSU Tigers",
+        "location": "Baton Rouge, Louisiana",
+        "conference": "Southeastern",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:04:59 -0000",
+        "subscription_count": 507495,
+        "id": 370,
+        "abbreviation": "LSU",
+        "api_uri": "/ncaaf/teams/370",
+        "resource_uri": "/football/teams/370",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/370/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/370/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/370/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/370/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "home_team": {
+        "medium_name": "Purdue",
+        "short_name": "Purdue",
+        "colour_1": "B89D29",
+        "colour_2": "000000",
+        "division": "Bowl Subdivision",
+        "full_name": "Purdue Boilermakers",
+        "name": "Purdue",
+        "search_name": "Purdue Boilermakers",
+        "location": "West Lafayette, Indiana",
+        "conference": "Big Ten",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:05:00 -0000",
+        "subscription_count": 79906,
+        "id": 534,
+        "abbreviation": "PUR",
+        "api_uri": "/ncaaf/teams/534",
+        "resource_uri": "/football/teams/534",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/534/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/534/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/534/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/534/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "red_zone": false,
+      "top_25_rankings": {
+        "home": null,
+        "away": 17
+      },
+      "display_fpi": true,
+      "league": {
+        "id": 3,
+        "daily_rollover_offset": 28800.0,
+        "daily_rollover_time": "13:00:00 +0000",
+        "default_section": "events",
+        "full_name": "NCAA Football",
+        "medium_name": "NCAA Football",
+        "season_type": "regular",
+        "short_name": "NCAAF",
+        "slug": "ncaaf",
+        "sport_name": "football",
+        "updated_at": "Mon, 02 Jan 2023 08:25:32 -0000",
+        "subscription_count": 7451271,
+        "sex": "M",
+        "localizations": {
+          
+        },
+        "api_uri": "/ncaaf",
+        "resource_uri": "/football/leagues/3"
+      },
+      "event_details": [
+        {
+          "label": "Orlando, FL",
+          "content": "Camping World Stadium",
+          "identifier": "stadium_location"
+        },
+        {
+          "label": "Wind mph",
+          "content": "8 - 8 ESE",
+          "identifier": "weather_forecast/wind/mph"
+        },
+        {
+          "label": "Wind km/h",
+          "content": "13 - 13 ESE",
+          "identifier": "weather_forecast/wind/kph"
+        },
+        {
+          "label": "Sunny",
+          "content": "77°F",
+          "identifier": "weather_forecast/temperature/fahrenheit"
+        },
+        {
+          "label": "Sunny",
+          "content": "25°C",
+          "identifier": "weather_forecast/temperature/celsius"
+        },
+        {
+          "label": "Precipitation",
+          "content": "0%",
+          "identifier": "weather_forecast/precipitation"
+        },
+        {
+          "label": "Watch on",
+          "content": "TSN3",
+          "identifier": "broadcast/ca"
+        },
+        {
+          "label": "Watch on",
+          "content": "ABC",
+          "identifier": "broadcast/us"
+        },
+        {
+          "label": "Closing odds",
+          "content": "LSU -14.5, o/u 53.5",
+          "identifier": "closing_odds"
+        }
+      ],
+      "tv_listings_by_country_code": {
+        "us": [
+          {
+            "short_name": "ABC",
+            "long_name": "ABC"
+          }
+        ],
+        "ca": [
+          {
+            "short_name": "TSN3",
+            "long_name": "TSN3"
+          }
+        ]
+      },
+      "has_team_twitter_handles": true,
+      "standings": {
+        "away": {
+          "last_five_games_record": null,
+          "short_record": "9-4-0",
+          "streak": "L2",
+          "short_ats_record": null,
+          "short_away_record": "3-2-0",
+          "short_conference_record": "6-2-0",
+          "short_division_record": "8-4-0",
+          "short_home_record": "6-2-0",
+          "conference_rank": 8,
+          "conference_seed": 8,
+          "division_rank": 2,
+          "division_seed": null,
+          "formatted_rank": "2nd West",
+          "conference": "Southeastern",
+          "conference_abbreviation": "SEC",
+          "division": "West",
+          "place": 8,
+          "api_uri": "/ncaaf/standings/4404",
+          "division_ranking": 8
+        },
+        "home": {
+          "last_five_games_record": null,
+          "short_record": "8-5-0",
+          "streak": "L1",
+          "short_ats_record": null,
+          "short_away_record": "4-3-0",
+          "short_conference_record": "6-3-0",
+          "short_division_record": "7-5-0",
+          "short_home_record": "4-2-0",
+          "conference_rank": 8,
+          "conference_seed": 8,
+          "division_rank": 1,
+          "division_seed": null,
+          "formatted_rank": "1st West",
+          "conference": "Big Ten",
+          "conference_abbreviation": "Big Ten",
+          "division": "West",
+          "place": 8,
+          "api_uri": "/ncaaf/standings/4394",
+          "division_ranking": 8
+        }
+      },
+      "box_score": {
+        "minutes": 4,
+        "segment_number": 1,
+        "down": 1,
+        "formatted_distance": "10",
+        "yards_from_goal": 53,
+        "home_timeouts_left": 3,
+        "away_timeouts_left": 3,
+        "under_review": false,
+        "field_position": "LSU 47",
+        "id": 27759,
+        "has_statistics": true,
+        "progress": {
+          "clock_label": "4:20 1st",
+          "string": "4:20 1st",
+          "status": "in_progress",
+          "event_status": "in_progress",
+          "segment": 1,
+          "segment_string": "1st",
+          "segment_description": "1st Quarter",
+          "clock": "4:20",
+          "overtime": false
+        },
+        "updated_at": "Mon, 02 Jan 2023 18:39:32 -0000",
+        "api_uri": "/ncaaf/box_scores/27759",
+        "score": {
+          "home": {
+            "score": 0
+          },
+          "away": {
+            "score": 7
+          },
+          "winning_team": "/ncaaf/teams/370",
+          "losing_team": "/ncaaf/teams/534",
+          "tie_game": false
+        },
+        "team_in_possession": {
+          "medium_name": "LSU",
+          "short_name": "LSU",
+          "colour_1": "FFD700",
+          "colour_2": "461D7C",
+          "division": "Bowl Subdivision",
+          "full_name": "LSU Tigers",
+          "name": "LSU",
+          "search_name": "LSU Tigers",
+          "location": "Baton Rouge, Louisiana",
+          "conference": "Southeastern",
+          "has_injuries": true,
+          "has_rosters": true,
+          "has_extra_info": true,
+          "updated_at": "Mon, 02 Jan 2023 18:04:59 -0000",
+          "subscription_count": 507495,
+          "id": 370,
+          "abbreviation": "LSU",
+          "api_uri": "/ncaaf/teams/370",
+          "resource_uri": "/football/teams/370",
+          "logos": {
+            "large": "https://assets-sports.thescore.com/football/team/370/logo.png",
+            "small": "https://assets-sports.thescore.com/football/team/370/small_logo.png",
+            "w72xh72": "https://assets-sports.thescore.com/football/team/370/w72xh72_logo.png",
+            "tiny": "https://assets-sports.thescore.com/football/team/370/tiny_logo.png",
+            "facing": null
+          }
+        }
+      },
+      "odd": {
+        "away_odd": "-14.5",
+        "home_odd": "T:53.5",
+        "id": 2060739,
+        "line": "LSU -14.5",
+        "over_under": "53.5",
+        "api_uri": "/ncaaf/odds/2060739",
+        "closing": "LSU -14.5, o/u 53.5"
+      },
+      "subscribable_alerts": [
+        {
+          "key": "game_start",
+          "display": "Game Start",
+          "default": true
+        },
+        {
+          "key": "game_end",
+          "display": "Game End",
+          "default": true
+        },
+        {
+          "key": "score_change",
+          "display": "Every Scoring Play",
+          "default": true
+        },
+        {
+          "key": "red_zone",
+          "display": "Red Zone",
+          "default": false
+        },
+        {
+          "key": "segment_end",
+          "display": "Score - Each Quarter",
+          "default": true
+        },
+        {
+          "key": "tight_game",
+          "display": "Close Game",
+          "default": false
+        },
+        {
+          "key": "turnovers",
+          "display": "Turnovers",
+          "default": false
+        },
+        {
+          "key": "line_movement",
+          "display": "Line Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_movement",
+          "display": "Over/Under Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_watch",
+          "display": "Over/Under Watch (In-Game)",
+          "default": false
+        },
+        {
+          "key": "close_bet",
+          "display": "Close Bet (In-Game)",
+          "default": false
+        }
+      ]
+    },
+    {
+      "bowl": null,
+      "important": true,
+      "location": "Pasadena, CA",
+      "season_week": "2022-18",
+      "stadium": "Rose Bowl",
+      "total_quarters": null,
+      "colours": {
+        "away": "1E407C",
+        "home": "CC0000"
+      },
+      "conference_names": [
+        "All FBS",
+        "Big Ten",
+        "Pac-12",
+        "Top 25"
+      ],
+      "has_play_by_play_records": false,
+      "stubhub_url": null,
+      "week": 18,
+      "home_ranking": 8,
+      "away_ranking": 11,
+      "id": 130967,
+      "event_status": "pre_game",
+      "game_date": "Mon, 02 Jan 2023 22:00:00 -0000",
+      "game_type": "Bowl Game",
+      "game_description": "Rose Bowl",
+      "tba": false,
+      "updated_at": "Sun, 01 Jan 2023 22:10:04 -0000",
+      "bet_works_id": null,
+      "betradar_id": "37863261",
+      "top_match": null,
+      "status": "pre_game",
+      "api_uri": "/ncaaf/events/130967",
+      "resource_uri": "/football/events/130967",
+      "away_team": {
+        "medium_name": "Penn State",
+        "short_name": "Penn State",
+        "colour_1": "1E407C",
+        "colour_2": "FFFFFF",
+        "division": "Bowl Subdivision",
+        "full_name": "Penn State Nittany Lions",
+        "name": "Penn State",
+        "search_name": "Penn State Nittany Lions",
+        "location": "State College, Pennsylvania",
+        "conference": "Big Ten",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:05:00 -0000",
+        "subscription_count": 372932,
+        "id": 521,
+        "abbreviation": "PSU",
+        "api_uri": "/ncaaf/teams/521",
+        "resource_uri": "/football/teams/521",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/521/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/521/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/521/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/521/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "home_team": {
+        "medium_name": "Utah",
+        "short_name": "Utah",
+        "colour_1": "CC0000",
+        "colour_2": "808080",
+        "division": "Bowl Subdivision",
+        "full_name": "Utah Utes",
+        "name": "Utah",
+        "search_name": "Utah Utes",
+        "location": "Salt Lake City, Utah",
+        "conference": "Pacific-12",
+        "has_injuries": true,
+        "has_rosters": true,
+        "has_extra_info": true,
+        "updated_at": "Mon, 02 Jan 2023 18:05:00 -0000",
+        "subscription_count": 109388,
+        "id": 677,
+        "abbreviation": "UTAH",
+        "api_uri": "/ncaaf/teams/677",
+        "resource_uri": "/football/teams/677",
+        "logos": {
+          "large": "https://assets-sports.thescore.com/football/team/677/logo.png",
+          "small": "https://assets-sports.thescore.com/football/team/677/small_logo.png",
+          "w72xh72": "https://assets-sports.thescore.com/football/team/677/w72xh72_logo.png",
+          "tiny": "https://assets-sports.thescore.com/football/team/677/tiny_logo.png",
+          "facing": null
+        }
+      },
+      "top_25_rankings": {
+        "home": 8,
+        "away": 11
+      },
+      "display_fpi": true,
+      "league": {
+        "id": 3,
+        "daily_rollover_offset": 28800.0,
+        "daily_rollover_time": "13:00:00 +0000",
+        "default_section": "events",
+        "full_name": "NCAA Football",
+        "medium_name": "NCAA Football",
+        "season_type": "regular",
+        "short_name": "NCAAF",
+        "slug": "ncaaf",
+        "sport_name": "football",
+        "updated_at": "Mon, 02 Jan 2023 08:25:32 -0000",
+        "subscription_count": 7451271,
+        "sex": "M",
+        "localizations": {
+          
+        },
+        "api_uri": "/ncaaf",
+        "resource_uri": "/football/leagues/3"
+      },
+      "event_details": [
+        {
+          "label": "Pasadena, CA",
+          "content": "Rose Bowl",
+          "identifier": "stadium_location"
+        },
+        {
+          "label": "Wind mph",
+          "content": "4 - 4 W",
+          "identifier": "weather_forecast/wind/mph"
+        },
+        {
+          "label": "Wind km/h",
+          "content": "6 - 6 W",
+          "identifier": "weather_forecast/wind/kph"
+        },
+        {
+          "label": "Clear",
+          "content": "55°F",
+          "identifier": "weather_forecast/temperature/fahrenheit"
+        },
+        {
+          "label": "Clear",
+          "content": "13°C",
+          "identifier": "weather_forecast/temperature/celsius"
+        },
+        {
+          "label": "Precipitation",
+          "content": "0%",
+          "identifier": "weather_forecast/precipitation"
+        },
+        {
+          "label": "Watch on",
+          "content": "TSN2",
+          "identifier": "broadcast/ca"
+        },
+        {
+          "label": "Watch on",
+          "content": "ESPN",
+          "identifier": "broadcast/us"
+        }
+      ],
+      "tv_listings_by_country_code": {
+        "us": [
+          {
+            "short_name": "ESPN",
+            "long_name": "ESPN"
+          }
+        ],
+        "ca": [
+          {
+            "short_name": "TSN2",
+            "long_name": "TSN2"
+          }
+        ]
+      },
+      "has_team_twitter_handles": true,
+      "standings": {
+        "away": {
+          "last_five_games_record": null,
+          "short_record": "10-2-0",
+          "streak": "W4",
+          "short_ats_record": null,
+          "short_away_record": "4-1-0",
+          "short_conference_record": "7-2-0",
+          "short_division_record": "10-2-0",
+          "short_home_record": "6-1-0",
+          "conference_rank": 3,
+          "conference_seed": 3,
+          "division_rank": 3,
+          "division_seed": null,
+          "formatted_rank": "3rd East",
+          "conference": "Big Ten",
+          "conference_abbreviation": "Big Ten",
+          "division": "East",
+          "place": 3,
+          "api_uri": "/ncaaf/standings/4384",
+          "division_ranking": 3
+        },
+        "home": {
+          "last_five_games_record": null,
+          "short_record": "10-3-0",
+          "streak": "W2",
+          "short_ats_record": null,
+          "short_away_record": "4-3-0",
+          "short_conference_record": "7-2-0",
+          "short_division_record": "9-3-0",
+          "short_home_record": "6-0-0",
+          "conference_rank": 4,
+          "conference_seed": 4,
+          "division_rank": null,
+          "division_seed": null,
+          "formatted_rank": "4th Pac-12",
+          "conference": "Pacific-12",
+          "conference_abbreviation": "Pac-12",
+          "division": null,
+          "place": 4,
+          "api_uri": "/ncaaf/standings/4475",
+          "division_ranking": 4
+        }
+      },
+      "box_score": null,
+      "odd": {
+        "away_odd": "-1.5",
+        "home_odd": "T:54.5",
+        "id": 2060797,
+        "line": "PSU -1.5",
+        "over_under": "54.5",
+        "api_uri": "/ncaaf/odds/2060797"
+      },
+      "subscribable_alerts": [
+        {
+          "key": "game_start",
+          "display": "Game Start",
+          "default": true
+        },
+        {
+          "key": "game_end",
+          "display": "Game End",
+          "default": true
+        },
+        {
+          "key": "score_change",
+          "display": "Every Scoring Play",
+          "default": true
+        },
+        {
+          "key": "red_zone",
+          "display": "Red Zone",
+          "default": false
+        },
+        {
+          "key": "segment_end",
+          "display": "Score - Each Quarter",
+          "default": true
+        },
+        {
+          "key": "tight_game",
+          "display": "Close Game",
+          "default": false
+        },
+        {
+          "key": "turnovers",
+          "display": "Turnovers",
+          "default": false
+        },
+        {
+          "key": "line_movement",
+          "display": "Line Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_movement",
+          "display": "Over/Under Movement (Pre-Game)",
+          "default": false
+        },
+        {
+          "key": "over_under_watch",
+          "display": "Over/Under Watch (In-Game)",
+          "default": false
+        },
+        {
+          "key": "close_bet",
+          "display": "Close Bet (In-Game)",
+          "default": false
+        }
+      ]
+    }
+  ]

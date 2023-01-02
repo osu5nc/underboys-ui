@@ -1,4 +1,4 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
 
 @Component({
   selector: 'app-cfb-game',
@@ -6,18 +6,6 @@ import { Component } from '@angular/core';
   styleUrls: ['./cfb-game.component.scss']
 })
 export class CfbGameComponent {
-  game = {
-    homeTeam: {
-      name: 'Illinois',
-      score: 7
-    },
-    awayTeam: {
-      name: 'Mississippi State',
-      score: 3
-    },
-    time: {
-      quarter: '2nd',
-      remainingTime: '0:00'
-    }
-  }
+
+  @Input() game: any;
 }

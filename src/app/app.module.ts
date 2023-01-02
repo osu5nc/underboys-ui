@@ -5,16 +5,20 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { CfbGameComponent } from './cfb-game/cfb-game.component';
+import { HttpClientModule } from '@angular/common/http';
+import { CfbScoreboardComponent } from './cfb-scoreboard/cfb-scoreboard.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CfbGameComponent
+    CfbGameComponent,
+    CfbScoreboardComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NgbModule
+    NgbModule,
+    HttpClientModule
   ],
   providers: [],
   bootstrap: [AppComponent]
