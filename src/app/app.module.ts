@@ -8,13 +8,15 @@ import { CfbGameComponent } from './cfb-game/cfb-game.component';
 import { HttpClientModule } from '@angular/common/http';
 import { CfbScoreboardComponent } from './cfb-scoreboard/cfb-scoreboard.component';
 import { PaymentComponent } from './payment/payment.component';
+import { RegistrationComponent } from './registration/registration.component';
 
 @NgModule({
   declarations: [
     AppComponent,
     CfbGameComponent,
     CfbScoreboardComponent,
-    PaymentComponent
+    PaymentComponent,
+    RegistrationComponent
   ],
   imports: [
     BrowserModule,
