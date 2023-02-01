@@ -3,75 +3,101 @@
     <div class="form-check">
         <form id="golfSignup">
             <div><strong style="font-size:30px;">Golf Sign Up</strong></div>
+            <br />
+            <fieldset>
+                <legend>Please choose participation level and complete information below</legend>
+                <div style="padding-bottom:5px;">
+                    <input type="radio" name="participation" id="scarlet" value="scarlet" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="scarlet"><strong>Scarlet Sponsor</strong> ($780) includes one Hole Sponsorship, 4 golfers, lunch(4) and 12 raffle tickets</label></span>
+                </div>
+                <div style="padding-bottom:5px;">
+                    <input type="radio" name="participation" id="gray" value="gray" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="gray"><strong>Gray Sponsor</strong> ($440) includes one Hole Sponsorship, 2 golfers, lunch (2) and 6 raffle tickets</label></span>
+                </div>
+                <div style="padding-bottom:5px;">
+                    <input type="radio" name="participation" id="single" value="single" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="single"><strong>Single</strong> ($175) includes lunch and 3 raffle tickets</label></span>
+                </div>
+                <div style="padding-bottom:5px;">
+                    <input type="radio" name="participation" id="holeSponsor" value="holeSponsor" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="holeSponsor"><strong>Hole Sponsor </strong>($150) includes lunch (does not include golf)</label></span>
+                </div>
+            </fieldset>
+            <hr />
+            <div *ngIf="holeSponsor"><br />Thank you for sponsoring a hole!</div>
+            <br />
+            <div *ngIf="totalGolfers > 0">
+                Please enter details for {{totalGolfers}} golfers:
                 <br />
+                <br />
+                <div>(1) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name1"></span></div>
+                <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address1"></span></div>
+                <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email1"></span></div>
+                <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone1"></span></div>
+            </div>
+            <div *ngIf="totalGolfers > 1">
+                <br />
+                <div>(2) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name2"></span></div>
+                <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address2"></span></div>
+                <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email2"></span></div>
+                <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone2"></span></div>
+            </div>
+            <div *ngIf="totalGolfers > 2">
+                <br />
+                <div>(3) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name3"></span></div>
+                <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address3"></span></div>
+                <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email3"></span></div>
+                <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone3"></span></div>
+            </div>
+            <div *ngIf="totalGolfers > 3">
+                <br />
+                <div>(4) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name4"></span></div>
+                <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address4"></span></div>
+                <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email4"></span></div>
+                <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone4"></span></div>
+            </div>
+            <br /> 
+            <div *ngIf="totalGolfers > 0"><hr />
                 <fieldset>
-                    <legend>Please choose participation level and complete information below</legend>
+                <legend>Each golfer is signed up for a lunch.  Would you like to sign others up for lunch ($40/each)?</legend>
+                <div style="padding-bottom:5px;">
+                    <input type="radio" name="extraLunch" id="lunchYes" value="lunchYes" (click)="showExtraLunch()"><span style="padding-left:5px;"><label for="lunchYes">Yes</label></span>
+                </div>
+                <div style="padding-bottom:5px;">
+                    <input type="radio" name="extraLunch" id="lunchNo" value="lunchNo" (click)="hideExtraLunch();calculateTotalCost();"><span style="padding-left:5px;"><label for="lunchNo">No</label></span>
+                </div>
+                </fieldset>
+                <hr />
+            </div>
+            <div *ngIf="extraLunch || sponsorOnly">
+                <div *ngIf="sponsorOnly">You are signed up for 1 lunch.  You can also add others ($40/each)</div>
+                <div>(1) <label for="lunch1">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch1" (blur)="calculateTotalCost()"></span></div>
+                <div>(2) <label for="lunch2">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch2" (blur)="calculateTotalCost()"></span></div>
+                <div>(3) <label for="lunch3">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch3" (blur)="calculateTotalCost()"></span></div>
+                <div>(4) <label for="lunch4">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch4" (blur)="calculateTotalCost()"></span></div>
+                <hr />
+            </div>
+            <div *ngIf="totalRaffleTickets > 0">
+                <fieldset>
+                    <legend>You have {{totalRaffleTickets}} raffle tickets.  Would you to purchase more ($10 for 3, #20 for 8)?</legend>
                     <div style="padding-bottom:5px;">
-                        <input type="radio" name="participation" id="scarlet" value="scarlet" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="scarlet"><strong>Scarlet Sponsor</strong> ($780) includes one Hole Sponsorship, 4 golfers, lunch(4) and 12 raffle tickets</label></span>
+                        <input type="radio" name="extraRaffle" id="raffleYes" value="raffleYes" (click)="showExtraRaffle()"><span style="padding-left:5px;"><label for="raffleYes">Yes</label></span>
                     </div>
                     <div style="padding-bottom:5px;">
-                        <input type="radio" name="participation" id="gray" value="gray" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="gray"><strong>Gray Sponsor</strong> ($440) includes one Hole Sponsorship, 2 golfers, lunch (2) and 6 raffle tickets</label></span>
-                    </div>
-                    <div style="padding-bottom:5px;">
-                        <input type="radio" name="participation" id="single" value="single" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="single"><strong>Single</strong> ($175) includes lunch and 3 raffle tickets</label></span>
-                    </div>
-                    <div style="padding-bottom:5px;">
-                        <input type="radio" name="participation" id="holeSponsor" value="holeSponsor" (click)="calculateTotalCost()"><span style="padding-left:5px;"><label for="holeSponsor"><strong>Hole Sponsor </strong>($150) includes lunch (does not include golf)</label></span>
+                        <input type="radio" name="extraRaffle" id="raffleNo" value="raffleNo" (click)="hideExtraRaffle();calculateTotalCost();"><span style="padding-left:5px;"><label for="raffleNo">No</label></span>
                     </div>
                 </fieldset>
                 <hr />
-                <div *ngIf="holeSponsor"><br />Thank you for sponsoring a hole!</div>
+            </div>
+            <div *ngIf="extraRaffle || sponsorOnly">
+                <div>Raffle Tickets</div>
+                <div><label for="raffle1"># at $10 for 3:</label><span style="padding-left:5px;"><input type ="text" id="raffle1" (blur)="calculateTotalCost()"></span></div>
                 <br />
-                <div *ngIf="totalGolfers > 0">
-                    Please enter details for {{totalGolfers}} golfers:
-                    <br />
-                    <br />
-                    <div>(1) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name1"></span></div>
-                    <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address1"></span></div>
-                    <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email1"></span></div>
-                    <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone1"></span></div>
-                </div>
-                <div *ngIf="totalGolfers > 1">
-                    <br />
-                    <div>(2) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name2"></span></div>
-                    <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address2"></span></div>
-                    <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email2"></span></div>
-                    <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone2"></span></div>
-                </div>
-                <div *ngIf="totalGolfers > 2">
-                    <br />
-                    <div>(3) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name3"></span></div>
-                    <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address3"></span></div>
-                    <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email3"></span></div>
-                    <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone3"></span></div>
-                </div>
-                <div *ngIf="totalGolfers > 3">
-                    <br />
-                    <div>(4) <label for="name1">Name:</label><span style="padding-left:5px;"><input type ="text" id="name4"></span></div>
-                    <div style="padding-left:23px;"><label for="address1">Mailing Address:</label><span style="padding-left:5px;"><input type ="text" id="address4"></span></div>
-                    <div style="padding-left:23px;"><label for="email1">Email Address:</label><span style="padding-left:5px;"><input type ="text" id="email4"></span></div>
-                    <div style="padding-left:23px;"><label for="phone1">Phone Number:</label><span style="padding-left:5px;"><input type ="text" id="phone4"></span></div>
-                </div>
-                <br /> 
-                <div *ngIf="totalGolfers > 0"><hr />
-                    <fieldset>
-                    <legend>Each golfer is signed up for a lunch.  Would you like to sign others up for lunch ($40/each)?</legend>
-                    <div style="padding-bottom:5px;">
-                        <input type="radio" name="extraLunch" id="lunchYes" value="lunchYes" (click)="showExtraLunch()"><span style="padding-left:5px;"><label for="lunchYes">Yes</label></span>
-                    </div>
-                    <div style="padding-bottom:5px;">
-                        <input type="radio" name="extraLunch" id="lunchNo" value="lunchNo" (click)="hideExtraLunch();calculateTotalCost();"><span style="padding-left:5px;"><label for="lunchNo">No</label></span>
-                    </div>
-                    </fieldset>
-                    <hr />
-                </div>
-                <div *ngIf="extraLunch || sponsorOnly">
-                    <div *ngIf="holeSponsor">You are signed up for 1 lunch.  You can also add others ($40/each)</div>
-                    <div>(1) <label for="lunch1">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch1" (blur)="calculateTotalCost()"></span></div>
-                    <div>(2) <label for="lunch2">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch2" (blur)="calculateTotalCost()"></span></div>
-                    <div>(3) <label for="lunch3">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch3" (blur)="calculateTotalCost()"></span></div>
-                    <div>(4) <label for="lunch4">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch4" (blur)="calculateTotalCost()"></span></div>
-                </div>
+                <div><label for="raffle2"># at $20 for 8:</label><span style="padding-left:5px;"><input type ="text" id="raffle2" (blur)="calculateTotalCost()"></span></div>
+                <br />
+                Total Raffle Tickets: {{totalRaffleTickets}}
+                <hr />
+            </div>
+            <div><label for="donation">Other Donation:</label><span style="padding-left:5px;"><input type ="text" id="donation" (blur)="calculateTotalCost()"></span></div>
+            <hr />
+            <div><label for="comments">Any Additional Comments?</label><br /><textarea rows="5" cols="90" id="comments"></textarea></div>
+            <hr />
         </form>
         <br />
         <div style="font-size:20px;"><strong>Total Cost:</strong><span id="totalCost" style="padding-left:5px">${{totalCost}}</span></div>

@@ -15,7 +15,8 @@ export class RegistrationComponent {
   holeSponsor: boolean = false;
   totalRaffleTickets: number = 0;
   extraLunch: boolean = false;
-  sponsorOnly = false;
+  extraRaffle: boolean = false;
+  sponsorOnly: boolean = false;
 
   public calculateTotalCost(): void {
     const participation = (<any>document.forms)['golfSignup'].elements['participation'].value;
@@ -69,6 +70,22 @@ export class RegistrationComponent {
         this.totalCost += 40;
       }
     }
+    if((<HTMLInputElement>document.getElementById('raffle1')) && (<HTMLInputElement>document.getElementById('raffle1')).value) {
+      const raffleTickets = +(<HTMLInputElement>document.getElementById('raffle1')).value;
+      const raffleCost = raffleTickets * 10 / 3;
+      this.totalCost += raffleCost;
+      this.totalRaffleTickets += raffleTickets;
+    }
+    if((<HTMLInputElement>document.getElementById('raffle2')) && (<HTMLInputElement>document.getElementById('raffle2')).value) {
+      const raffleTickets = +(<HTMLInputElement>document.getElementById('raffle2')).value;
+      const raffleCost = raffleTickets * 20 / 8;
+      this.totalCost += raffleCost;
+      this.totalRaffleTickets += raffleTickets;
+    }
+    if((<HTMLInputElement>document.getElementById('donation')) && (<HTMLInputElement>document.getElementById('donation')).value) {
+      const donation = +(<HTMLInputElement>document.getElementById('donation')).value;
+      this.totalCost += donation;
+    }
   }
 
   public showExtraLunch(): void {
@@ -81,5 +98,13 @@ export class RegistrationComponent {
     (<HTMLInputElement>document.getElementById('lunch2')).value = '';
     (<HTMLInputElement>document.getElementById('lunch3')).value = '';
     (<HTMLInputElement>document.getElementById('lunch4')).value = '';
+  }
+
+  public showExtraRaffle(): void {
+    this.extraRaffle = true;
+  }
+
+  public hideExtraRaffle(): void {
+    this.extraRaffle = false;
   }
 }
