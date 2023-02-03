@@ -26,6 +26,7 @@
                 Please enter details for {{totalGolfers}} golfers:
                 <br />
                 <br />
+                <div class="form-row">
                 <div class="form-group col-md-3">
                     (1) <label for="name1">Name:</label>
                     <input type ="text" id="name1" class="form-control">
@@ -33,6 +34,73 @@
                 <div class="form-group col-md-3">
                     <label for="address1">Mailing Address:</label>
                     <input type ="text" id="address1" class="form-control">
+                </div>
+            </div>
+                <div class="form-row">
+                    <div class="form-group col-md-6">
+                        <label for="city1">City:</label>
+                        <input type ="text" id="city1" class="form-control">
+                    </div>
+                    <div class="form-group col-md-4">
+                        <label for="state1">State:</label>
+                        <select class="form-control" id="state1">
+                            <option value="FL">Florida</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="zip1">Zip:</label>
+                        <input type ="text" id="zip1" class="form-control">
+                    </div>
                 </div>
                 <div class="form-group col-md-3">
                     <label for="email1">Email Address:</label>
@@ -44,6 +112,7 @@
                 </div>
             </div>
             <div *ngIf="totalGolfers > 1">
+                <hr />
                 <br />
                 <div class="form-group col-md-3">
                     (2) <label for="name2">Name:</label>
@@ -52,6 +121,72 @@
                 <div class="form-group col-md-3">
                     <label for="address2">Mailing Address:</label>
                     <input type ="text" id="address2" class="form-control">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="city2">City:</label>
+                        <input type ="text" id="city2" class="form-control">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="state2">State:</label>
+                        <select class="form-control" id="state2">
+                            <option value="FL">Florida</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="zip2">Zip:</label>
+                        <input type ="text" id="zip2" class="form-control">
+                    </div>
                 </div>
                 <div class="form-group col-md-3">
                     <label for="email2">Email Address:</label>
@@ -63,6 +198,7 @@
                 </div>
             </div>
             <div *ngIf="totalGolfers > 2">
+                <hr />
                 <br />
                 <div class="form-group col-md-3">
                     (3) <label for="name3">Name:</label>
@@ -71,6 +207,72 @@
                 <div class="form-group col-md-3">
                     <label for="address3">Mailing Address:</label>
                     <input type ="text" id="address3" class="form-control">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="city3">City:</label>
+                        <input type ="text" id="city3" class="form-control">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="state3">State:</label>
+                        <select class="form-control" id="state3">
+                            <option value="FL">Florida</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="zip3">Zip:</label>
+                        <input type ="text" id="zip3" class="form-control">
+                    </div>
                 </div>
                 <div class="form-group col-md-3">
                     <label for="email3">Email Address:</label>
@@ -82,6 +284,7 @@
                 </div>
             </div>
             <div *ngIf="totalGolfers > 3">
+                <hr />
                 <br />
                 <div class="form-group col-md-3">
                     (4) <label for="name4">Name:</label>
@@ -90,6 +293,72 @@
                 <div class="form-group col-md-3">
                     <label for="address4">Mailing Address:</label>
                     <input type ="text" id="address4" class="form-control">
+                </div>
+                <div class="form-row">
+                    <div class="form-group col-md-2">
+                        <label for="city4">City:</label>
+                        <input type ="text" id="city4" class="form-control">
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="state4">State:</label>
+                        <select class="form-control" id="state4">
+                            <option value="FL">Florida</option>
+                            <option value="AL">Alabama</option>
+                            <option value="AK">Alaska</option>
+                            <option value="AZ">Arizona</option>
+                            <option value="AR">Arkansas</option>
+                            <option value="CA">California</option>
+                            <option value="CO">Colorado</option>
+                            <option value="CT">Connecticut</option>
+                            <option value="DE">Delaware</option>
+                            <option value="DC">District Of Columbia</option>
+                            <option value="GA">Georgia</option>
+                            <option value="HI">Hawaii</option>
+                            <option value="ID">Idaho</option>
+                            <option value="IL">Illinois</option>
+                            <option value="IN">Indiana</option>
+                            <option value="IA">Iowa</option>
+                            <option value="KS">Kansas</option>
+                            <option value="KY">Kentucky</option>
+                            <option value="LA">Louisiana</option>
+                            <option value="ME">Maine</option>
+                            <option value="MD">Maryland</option>
+                            <option value="MA">Massachusetts</option>
+                            <option value="MI">Michigan</option>
+                            <option value="MN">Minnesota</option>
+                            <option value="MS">Mississippi</option>
+                            <option value="MO">Missouri</option>
+                            <option value="MT">Montana</option>
+                            <option value="NE">Nebraska</option>
+                            <option value="NV">Nevada</option>
+                            <option value="NH">New Hampshire</option>
+                            <option value="NJ">New Jersey</option>
+                            <option value="NM">New Mexico</option>
+                            <option value="NY">New York</option>
+                            <option value="NC">North Carolina</option>
+                            <option value="ND">North Dakota</option>
+                            <option value="OH">Ohio</option>
+                            <option value="OK">Oklahoma</option>
+                            <option value="OR">Oregon</option>
+                            <option value="PA">Pennsylvania</option>
+                            <option value="RI">Rhode Island</option>
+                            <option value="SC">South Carolina</option>
+                            <option value="SD">South Dakota</option>
+                            <option value="TN">Tennessee</option>
+                            <option value="TX">Texas</option>
+                            <option value="UT">Utah</option>
+                            <option value="VT">Vermont</option>
+                            <option value="VA">Virginia</option>
+                            <option value="WA">Washington</option>
+                            <option value="WV">West Virginia</option>
+                            <option value="WI">Wisconsin</option>
+                            <option value="WY">Wyoming</option>
+                          </select>
+                    </div>
+                    <div class="form-group col-md-2">
+                        <label for="zip4">Zip:</label>
+                        <input type ="text" id="zip4" class="form-control">
+                    </div>
                 </div>
                 <div class="form-group col-md-3">
                     <label for="email4">Email Address:</label>
@@ -115,10 +384,22 @@
             </div>
             <div *ngIf="extraLunch || sponsorOnly">
                 <div *ngIf="sponsorOnly">You are signed up for 1 lunch.  You can also add others ($40/each)</div>
-                <div>(1) <label for="lunch1">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch1" (blur)="calculateTotalCost()"></span></div>
-                <div>(2) <label for="lunch2">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch2" (blur)="calculateTotalCost()"></span></div>
-                <div>(3) <label for="lunch3">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch3" (blur)="calculateTotalCost()"></span></div>
-                <div>(4) <label for="lunch4">Name:</label><span style="padding-left:5px;"><input type ="text" id="lunch4" (blur)="calculateTotalCost()"></span></div>
+                <div class="form-group col-md-3">
+                    (1) <label for="lunch1">Name:</label>
+                    <input type ="text" id="lunch1" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                    (2) <label for="lunch2">Name:</label>
+                    <input type ="text" id="lunch2" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                    (3) <label for="lunch3">Name:</label>
+                    <input type ="text" id="lunch3" class="form-control">
+                </div>
+                <div class="form-group col-md-3">
+                    (4) <label for="lunch4">Name:</label>
+                    <input type ="text" id="lunch4" class="form-control">
+                </div>
                 <hr />
             </div>
             <div *ngIf="totalRaffleTickets > 0">
@@ -135,14 +416,22 @@
             </div>
             <div *ngIf="extraRaffle || sponsorOnly">
                 <div>Raffle Tickets</div>
-                <div><label for="raffle1"># at $10 for 3:</label><span style="padding-left:5px;"><input type ="text" id="raffle1" (blur)="calculateTotalCost()"></span></div>
-                <br />
-                <div><label for="raffle2"># at $20 for 8:</label><span style="padding-left:5px;"><input type ="text" id="raffle2" (blur)="calculateTotalCost()"></span></div>
+                <div class="form-group col-md-3">
+                    <label for="raffle1"># at $10 for 3:</label>
+                    <input type ="text" id="raffle1" class="form-control" (blur)="calculateTotalCost()">
+                </div>
+                <div class="form-group col-md-3">
+                    <label for="raffle2"># at $20 for 8:</label>
+                    <input type ="text" id="raffle2" class="form-control" (blur)="calculateTotalCost()">
+                </div>
                 <br />
                 Total Raffle Tickets: {{totalRaffleTickets}}
                 <hr />
             </div>
-            <div><label for="donation">Other Donation:</label><span style="padding-left:5px;"><input type ="text" id="donation" (blur)="calculateTotalCost()"></span></div>
+            <div class="form-group col-md-3">
+                <label for="donation">Other Donation:</label>
+                <input type ="text" id="donation" class="form-control" (blur)="calculateTotalCost()">
+            </div>
             <hr />
             <div><label for="comments">Any Additional Comments?</label><br /><textarea rows="5" cols="90" id="comments"></textarea></div>
             <hr />
