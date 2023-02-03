@@ -396,22 +396,26 @@
                 <hr />
             </div>
             <div *ngIf="extraLunch || sponsorOnly">
-                <div *ngIf="sponsorOnly">You are signed up for 1 lunch.  You can also add others ($40/each)</div>
-                <div class="form-group col-md-3">
-                    (1) <label for="lunch1">Name:</label>
-                    <input type ="text" id="lunch1" class="form-control">
+                <div *ngIf="sponsorOnly">You are signed up for 1 lunch.  You can also add others ($40/each)<br /><br /></div>
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        (1) <label for="lunch1">Name:</label>
+                        <input type ="text" id="lunch1" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                        (2) <label for="lunch2">Name:</label>
+                        <input type ="text" id="lunch2" class="form-control">
+                    </div>
                 </div>
-                <div class="form-group col-md-3">
-                    (2) <label for="lunch2">Name:</label>
-                    <input type ="text" id="lunch2" class="form-control">
-                </div>
-                <div class="form-group col-md-3">
-                    (3) <label for="lunch3">Name:</label>
-                    <input type ="text" id="lunch3" class="form-control">
-                </div>
-                <div class="form-group col-md-3">
-                    (4) <label for="lunch4">Name:</label>
-                    <input type ="text" id="lunch4" class="form-control">
+                <div class="form-row">
+                    <div class="form-group col-md-3">
+                        (3) <label for="lunch3">Name:</label>
+                        <input type ="text" id="lunch3" class="form-control">
+                    </div>
+                    <div class="form-group col-md-3">
+                        (4) <label for="lunch4">Name:</label>
+                        <input type ="text" id="lunch4" class="form-control">
+                    </div>
                 </div>
                 <hr />
             </div>
@@ -428,14 +432,16 @@
                 <hr />
             </div>
             <div *ngIf="extraRaffle || sponsorOnly">
-                <div>Raffle Tickets</div>
-                <div class="form-group col-md-3">
-                    <label for="raffle1"># at $10 for 3:</label>
-                    <input type ="text" id="raffle1" class="form-control" (blur)="calculateTotalCost()">
-                </div>
-                <div class="form-group col-md-3">
-                    <label for="raffle2"># at $20 for 8:</label>
-                    <input type ="text" id="raffle2" class="form-control" (blur)="calculateTotalCost()">
+                <strong>Raffle Tickets</strong><br /><br />
+                <div class="row">
+                    <div class="form-group col-md-3">
+                        <label for="raffle1"># at $10 for 3:</label>
+                        <input type ="text" id="raffle1" class="form-control" (blur)="calculateTotalCost()">
+                    </div>
+                    <div class="form-group col-md-3">
+                        <label for="raffle2"># at $20 for 8:</label>
+                        <input type ="text" id="raffle2" class="form-control" (blur)="calculateTotalCost()">
+                    </div>
                 </div>
                 <br />
                 Total Raffle Tickets: {{totalRaffleTickets}}
